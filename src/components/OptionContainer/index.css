@@ -1,0 +1,40 @@
+.optionName {
+  color: #181818;
+  font-family: 'Roboto';
+  outline: none;
+  cursor: pointer;
+  font-size: 15px;
+  padding-left: 18px;
+}
+
+.ulContainer {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+.linkItem {
+  text-decoration: none;
+}
+.contactContainer {
+  padding-left: 25px;
+}
+
+.contactHead {
+  color: #231f20;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.logo {
+  height: 30px;
+  margin-right: 15px;
+}
+
+.contactPara {
+  color: #231f20;
+  font-weight: bold;
+  font-family: 'Roboto';
+}

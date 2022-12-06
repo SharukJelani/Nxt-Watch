@@ -1,0 +1,83 @@
+.trendingMainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.trendingLogoContainer {
+  padding: 12px;
+  background-color: #ebebeb;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.linkItem {
+  text-decoration: none;
+}
+
+.TrendingVideosDisplay {
+  background-color: #f8fafc;
+  width: 90%;
+}
+
+.TrendingDisplayIcon {
+  background-color: #7e858e;
+  padding: 12px;
+  border-radius: 42px;
+}
+
+.TrendingHead {
+  padding-left: 15px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  color: #181818;
+}
+
+.ul {
+  height: 70vh;
+  overflow: auto;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.trendingImg {
+  height: 150px;
+  padding: 12px;
+}
+
+.trendingHead {
+  width: 35vw;
+  color: #212121;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.liContainerTrending {
+  padding: 25px;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.channelName {
+  font-weight: bold;
+  color: #64748b;
+  font-family: 'Roboto';
+  margin: 0px;
+  padding: 0px;
+}
+
+.div {
+  padding-left: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.views {
+  display: flex;
+  flex-direction: row;
+}

@@ -1,0 +1,83 @@
+.gamingContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.gamingVideosDisplay {
+  background-color: #f8fafc;
+  width: 90%;
+}
+
+.linkItem {
+  text-decoration: none;
+}
+
+.gamingHeadContainer {
+  background-color: #ebebeb;
+  margin-left: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  margin-left: 0px;
+}
+
+.gamingHeadIcon {
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding-left: 24px;
+}
+
+.gamingDisplayIcon {
+  background-color: #7e858e;
+  padding: 12px;
+  border-radius: 45px;
+}
+
+.gamingDisplayContainer {
+  height: 70vh;
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.displayImg {
+  height: 180px;
+  padding: 10px;
+  padding-bottom: 4px;
+}
+
+.displayTitle {
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  padding-left: 11px;
+  font-size: medium;
+  color: #475569;
+}
+
+.displayPara {
+  font-family: 'Roboto';
+  font-weight: bold;
+  padding: 0px;
+  margin: 0px;
+  padding-top: 5px;
+  padding-left: 11px;
+  font-size: small;
+  color: #909090;
+}
+
+.gamingIconContainer {
+  outline: none;
+  cursor: pointer;
+  margin: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}

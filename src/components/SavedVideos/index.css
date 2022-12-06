@@ -1,0 +1,22 @@
+.SavedContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.noVideosImg {
+  height: 300px;
+  padding: 12px;
+}
+
+.noVideosContainer {
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noVideosPara {
+  font-weight: bold;
+  font-family: 'Roboto';
+}

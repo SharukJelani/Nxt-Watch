@@ -1,0 +1,67 @@
+.HomeLogo {
+  height: 35px;
+}
+
+.logoutContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoutPopContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.cancelBut {
+  margin: 12px;
+  background-color: transparent;
+  border: 2px solid #3b82f6;
+  font-weight: bold;
+  padding: 8px;
+  color: #3b82f6;
+  outline: none;
+  cursor: pointer;
+}
+
+.popLogoutBut {
+  margin: 12px;
+  background-color: #3b82f6;
+  border: none;
+  font-weight: bold;
+  padding: 25px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+}
+
+.theme {
+  background-color: transparent;
+  border: transparent;
+}
+
+.profile {
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  outline: none;
+  cursor: pointer;
+}
+
+.profile1 {
+  height: 40px;
+  margin-left: 25px;
+  margin-right: 25px;
+  outline: none;
+  cursor: pointer;
+  color: white;
+}
+.linkItem {
+  text-decoration: none;
+}

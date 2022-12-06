@@ -1,0 +1,193 @@
+.backgroundContainer {
+  display: flex;
+  flex-direction: row;
+  height: 80vh;
+}
+
+.ResultsContainer {
+  background-color: #f8fafc;
+  width: 84vw;
+  padding: 25px;
+  margin-right: 15px;
+}
+
+.searchItem {
+  padding: 9px;
+  width: 20vw;
+}
+
+.searchContainer {
+  border: 0.5px solid black;
+  width: 24vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 12px;
+}
+.searchIconContainer {
+  outline: none;
+  cursor: pointer;
+  background-color: #e2e8f0;
+  padding: 0px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.loadingContainer {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.failureImg {
+  height: 300px;
+  padding: 12px;
+}
+
+.failureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+}
+
+.failureHead {
+  color: #424242;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.failurePara {
+  color: #909090;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.failureBut {
+  color: white;
+  font-weight: bold;
+  background-color: #00306e;
+  border: none;
+  padding: 15px;
+  border-radius: 12px;
+  margin: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.resultsContainer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 0px;
+  margin-left: 0px;
+  overflow: auto;
+  height: 100vh;
+}
+
+.resultsItemContainer {
+  outline: none;
+  cursor: pointer;
+  margin: 8px;
+  display: flex;
+  width: 350px;
+  margin-bottom: 70px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.channelContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.resultsImg {
+  height: 190px;
+}
+
+.channelLogo {
+  padding-left: 12px;
+  height: 50px;
+}
+
+.linkCSS {
+  text-decoration: none;
+}
+
+.channelHead {
+  color: #313131;
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-bottom: 8px;
+  font-size: 9px;
+  width: 80%;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.channelTitle {
+  color: #64748b;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-bottom: 1px;
+  padding-top: 1px;
+  padding-left: 4px;
+  margin: 0px;
+}
+
+.titleContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.searchFailureImg {
+  height: 180px;
+}
+
+.searchFailureContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchRetry {
+  font-weight: bold;
+  font-family: 'Roboto';
+  border: none;
+  color: white;
+  background-color: #4f46e5;
+  margin: 8px;
+  padding: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  outline: none;
+  cursor: pointer;
+}
+
+.searchFailureHead {
+  color: #231f20;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 10px;
+  margin: 0px;
+}
+
+.searchFailurePara {
+  color: #424242;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding: 10px;
+  margin: 0px;
+}

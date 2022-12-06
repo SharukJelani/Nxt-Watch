@@ -1,0 +1,67 @@
+.optionsContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.videoTitle {
+  padding: 12px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  font-size: medium;
+}
+
+.videoView {
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-left: 8px;
+  line-height: 0px;
+}
+
+.videoViewContainer {
+  outline: none;
+  cursor: pointer;
+  background-color: transparent;
+  border: none;
+  padding-right: 12px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.videoViewMainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.channelLogo {
+  height: 50px;
+  border-radius: 45px;
+}
+
+.channelContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 25px;
+}
+
+.channelSub {
+  padding-left: 8px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  line-height: 0px;
+  color: #424242;
+}
+
+.channelNameContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.des {
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-left: 100px;
+}
